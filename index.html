@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css layout</title>
+</head>
+<style>
+
+    
+    body{
+        margin-top: 0px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .header{
+        width: 100vw;
+        height: 10vh;
+        background-color: rgb(214, 83, 226);
+        margin: 0px;
+        padding: 0px;
+    
+       
+    }
+    .header ul li{
+        list-style: none;
+        margin-left: 100px;
+        margin-top: 25px;
+        cursor: pointer;
+        
+    }
+    ul{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .container{
+        background-color: Green;
+        width: 100vw;
+        height: 80vh;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        
+    }
+    .box{
+        border: 3px solid black;
+        width: 35vw;
+        height: 40vh;
+        background-color: blueviolet;
+        margin-left: 100px;
+    }
+    .box1{
+        overflow: hidden;
+    }
+    .box2{
+        overflow: hidden;
+        background-color: brown;
+    }
+    .box3{
+        background-color: yellow;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 4px;
+    
+        
+        
+    }
+    .box5{
+        border-radius: 10px;
+    }
+</style>
+<body>
+    <div class="header">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>services</li>
+            <li>More about us</li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="box box1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, reiciendis, pariatur odio quod maxime assumenda, atque sunt ad id nulla sapiente natus voluptas sint ab veniam maiores distinctio excepturi deleniti officiis eos voluptate sed numquam eveniet laborum! Repellat quasi, omnis dignissimos dolores optio odio voluptates eum inventore eveniet tenetur illo deleniti at, exercitationem pariatur earum! At fugiat exercitationem saepe architecto explicabo, facere fugit inventore et quis reprehenderit aliquam quaerat quam quos, quasi numquam eaque dolorem error veniam. Labore debitis aut eveniet libero! Cumque sed soluta facilis nulla quae nam nobis, tenetur consequuntur aut eos, eaque blanditiis dolores expedita error aperiam.</div>
+        <div class="box box2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi mollitia rem obcaecati placeat voluptatum consectetur nisi, perferendis error amet iure, molestias libero animi fugit culpa. Impedit dolorum consequuntur perferendis exercitationem ipsa quasi debitis architecto adipisci beatae dolor minima, at accusamus? Fugit eveniet tempora odit consequuntur possimus delectus cum labore fugiat nostrum illum incidunt, maiores iure, quibusdam doloribus, totam doloremque ad autem soluta itaque reiciendis culpa facilis! Accusamus reprehenderit voluptatibus illum odit praesentium repellendus harum, eius aperiam voluptate? Quo voluptates atque veniam repellendus, accusamus dolor quod ea eum dicta eligendi et odio nostrum est sunt corrupti maiores, dolorum reiciendis delectus excepturi!</div>
+    </div>
+    
+       <div class="box box1 box5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, reiciendis, pariatur odio quod maxime assumenda, atque sunt ad id nulla sapiente natus voluptas sint ab veniam maiores distinctio excepturi deleniti officiis eos voluptate sed numquam eveniet laborum! Repellat quasi, omnis dignissimos dolores optio odio voluptates eum inventore eveniet tenetur illo deleniti at, exercitationem pariatur earum! At fugiat exercitationem saepe architecto explicabo, facere fugit inventore et quis reprehenderit aliquam quaerat quam quos, quasi numquam eaque dolorem error veniam. Labore debitis aut eveniet libero! Cumque sed soluta facilis nulla quae nam nobis, tenetur consequuntur aut eos, eaque blanditiis dolores expedita error aperiam.</div>
+       <div class="box3"><p>T</p></div>
+    <div class="header">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>services</li>
+            <li>More about us</li>
+        </ul>
+    </div>
+</body>
+</html>
