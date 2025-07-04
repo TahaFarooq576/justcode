@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.container{
+    display: grid;
+    border: 5px solid mediumslateblue;
+    grid-template-columns: repeat(3,1fr); 
+     
+      
+    
+}
+.items{
+    border: 3px solid yellow;
+    
+    
+    
+}
+.more1{
+    background-color: red;
+    height: auto;
+    /* overflow: hidden; */
+    /* grid-column-start: 1;
+    grid-column-end: 4; */
+    grid-row-start: 1;
+    grid-row-end: 4;
+    
+}
+.more2{
+background-color: yellow;
+grid-column-start: 2;
+grid-column-end: 4;
+grid-row-start: 2;
+grid-row-end: 4;
+/* grid-row: 2/4; */
+}
+</style>
+<body>
+    <div class="container">
+        <div class="items more1">Lorem ipsum dolor sit amet, deserunt ipsa. Aperiam alias perspiciatis adipisci facere quis voluptas voluptatibus cupiditate Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati culpa qui pariatur optio voluptates commodi.provident molestias vel, aliquid odio excepturi.</div>
+        <div class="items">2</div>
+        <div class="items">3 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque aperiam dolorum dolore eos omnis explicabo rem commodi aspernatur error incidunt totam illum nihil corporis necessitatibus, quae fugiat magni id nisi reprehenderit deserunt dignissimos, debitis provident porro quisquam. Voluptatibus blanditiis, libero expedita sunt porro suscipit ut ipsam nemo in aliquid delectus.</div>
+        <div class="items more2">4</div>
+        <div class="items">5</div>
+        <div class="items">6</div>
+        <div class="items">7</div>
+        <div class="items">8</div>
+    </div>
+    
+
+</body>
+</html>
