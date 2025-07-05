@@ -1,0 +1,103 @@
+.navbar{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    ul li{
+        list-style: none;
+        
+    }
+    ul{
+        display: flex;
+        gap: 2vw;
+        cursor: pointer;
+    }
+    ul li:hover{
+        font-size: 17px;
+    }
+    .items{
+        font-size: 40px;
+
+    }
+    .first{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* width: 50vw; */
+        align-items: center;
+        margin: auto;
+        gap: 20px;
+        height: auto;
+        margin-top: 50px;
+        
+        
+
+    }
+    .item1{
+        padding-top: 30px;
+        font-size: 40px;
+    }
+    .item2{
+        height: 10vh;
+        width: 60vw;
+        font-size: 30px;
+        padding-top: 30px;
+       
+        text-align: center;
+
+    }
+    .btn{
+         background-color: rgba(58, 160, 243, 0.719);
+         border: none;
+         padding: 14px 16px;
+         border-radius: 6px;
+         color: white;
+         cursor: pointer;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         
+    }
+    .btn:hover{
+        background-color: rgba(26, 143, 240, 0.719);
+        font-size: 14px;
+    }
+    .item3{
+        margin-top: 5vh;
+    }
+    .second{
+        width: 55vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding-top: 30px;
+        margin-left: 40px;
+    }
+    .grid{
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(3,2fr);
+        width: 60vw;
+        margin: auto;
+        gap: 20px;
+    }
+    .item{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(236, 236, 220);
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        padding: 30px;
+    }
+    .green{
+        background-color: green;
+    }
+    .green:hover{
+        background-color:  rgb(6, 194, 6);
+    }
+    @media  screen and (max-width: 600px){
+        .grid{
+            grid-template-columns: 1fr;
+        }
+    } 
+        
