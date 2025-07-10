@@ -1,22 +1,53 @@
-console.log("hello world");
-console.log("hello web world");
-console.log("Welcome to javascript");
+// node script
 
 
-var a=prompt("Enter aa number");
-console.log("You entered "+a);
+
+// let a=5;
+// let b=5.5;
+// let c =true;
+// let d =null;
+// let e=undefined;
+
+// console.log(a,b,c,d,e);
+// console.log(typeof a,typeof b,typeof c,typeof d,typeof e);
+
+// var obj={
+//     name:"Taha",
+//     "ph no":"225"
+
+// }
+
+// console.log(obj);
+// (obj).kt="twelewe";
+// console.log(obj);
 
 
-var istrue=confirm("you want to leave this page and burn your computer");
+//  let a=1
+// // for (let index = 2; index <10; index+=2) {
+// //     console.log(a+index)
+    
+// // }
+// while (a<=100) {
+//     console.log(a);
+//     a+=2;
+    
+// }
+// let object={
+//     name:"taha",
+//     rollno:"225"
+// }
 
-if(istrue){
-    console.log("Your computer is burned");
+// for (const key in object) {
+    
+//         const element = object[key];
+        
+//     console.log(element);
+// }
+
+
+
+
+for (const c of "Taha") {
+    console.log(c)
+    
 }
-else{
-    console.log("Your computer is not burned");
-}
-
-
-// document.title= "First javascript code";
-document.body.style.backgroundColor = "red";
-document.title= "First javascript code";

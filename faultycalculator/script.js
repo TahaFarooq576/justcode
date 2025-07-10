@@ -4,30 +4,30 @@ let c=prompt("Enter choice to perform calculations");
 let d=Math.random();
 console.log(d);
 
-if(c=='+'&&d<0.1){
+if(c=='+'&&d<0.5){
     console.log(a*b);
 }
-else if(c=='-'&&d<0.1){
+else if(c=='-'&&d<0.5){
     console.log(a+b);
 }
-else if(c=='*'&&d<0.1){
+else if(c=='*'&&d<0.5){
     console.log(a-b);
 
 }
-else if(c=='/'&&d<0.1){
+else if(c=='/'&&d<0.5){
     console.log(a*b);
 }
-else if(c=='+'&&d>0.1){
+else if(c=='+'&&d>0.5){
     console.log(a+b)
 }
-else if(c=='-'&&d>0.1){
+else if(c=='-'&&d>0.5){
     console.log(a-b);
 }
-else if(c=='*'&&d>0.1){
+else if(c=='*'&&d>0.5){
     console.log(a*b);
 
 }
-else if(c=='/'&&d>0.1){
+else if(c=='/'&&d>0.5){
     console.log(a/b);
 }
 else{
