@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .body{
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        margin: auto;
+    }
+    .container{
+        
+        width: 40vw;
+        height: auto;
+        background-color: aquamarine;
+        margin: auto;
+        margin-top: 5vh;
+        
+        
+    }
+    .btn{
+        border: none;
+        padding: 16px;
+        border-radius: 20px;
+        background-color: greenyellow;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: orange;
+    }
+    #input{
+        border: none;
+        padding: 12px;
+        border-radius: 12px;
+        background-color: yellowgreen;
+        border-color: brown;
+    }
+</style>
+<body>
+       <header class="body">
+       <div class="container">
+        <h1 style="font-size: 50px; color: peru;">Todo list generator</h1>
+        <label style="font-size: 24px; color: red;margin-right: 30px;">Enter task  </label>
+        <input id="input" type="text" placeholder="Enter task to add in list">
+        <br>
+        <br>
+        
+        
+        <button class="btn">Add Task</button>
+        <button class="btn btn1">Delete Task</button>
+
+        <br>
+        <br>
+        <br>
+       </div>
+       </header>
+        
+       <ul class="list container"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
