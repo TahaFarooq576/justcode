@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Insertion</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">web dev journey</div>
+        <div class="box2" id="box2">web dev journey</div>
+        <div class="box3">web dev journey</div>
+        <div class="box4">web dev journey</div>
+        <div class="box4">web dev journey</div>
+        <div class="box4">web dev journey</div>
+        <div class="box4">web dev journey</div>
+        <div class="box4">web dev journey</div>
+        
+    </div>
+     <script>
+        let div1=document.createElement("div");
+        div1.setAttribute("class","style");
+        div1.style.background="red"
+        div1.innerHTML=("<b>hello world</b>");
+        document.getElementsByClassName("container")[0].before(div1);
+
+
+     
+     </script>
+     <script>
+     let div2=document.createElement("div");
+         div2.style.backgroundColor="Purple";
+           div2.innerHTML="<p>Hello brother</p>";
+            document.body.append(div2);
+            div1.remove()
+      </script>
+
+
+     
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
