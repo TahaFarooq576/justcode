@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        width: 100vw;
+        height: 80vh;
+        border: 5px solid red;
+        display: flex;
+    }
+    .item1{
+        height: 100px;
+        width: 100px;
+        background-color: red;
+        margin: 20px;
+        transform: rotate(30deg);
+        animation: transform 5s ease-in-out  infinite alternate;
+        
+    }
+      @keyframes transform {
+        100% { background-color: yellow;}
+        100% {
+            transform: translate(80vw);
+            transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+        }
+        
+      }    
+
+    
+</style>
+<body>
+    <div class="container">
+        <div class="items item1"></div>
+        <div class="items item1"></div>
+        <div class="items item1"></div>
+    </div>
+</body>
+</html>
