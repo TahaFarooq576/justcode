@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .parent{
+        background-color: red;
+        width: 100vw;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .firstchild{
+        background-color: blueviolet;
+        width: 80vw;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .childs{
+        background-color: rgb(201, 214, 12);
+        width: 20vw;
+        height: 20vh;
+        text-align: center;
+    }
+
+    .btn{
+        border: none;
+        padding: 16px;
+        font-size: 16px;
+        font-weight: bold;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       border-radius: 20px;
+       background-color: orange;
+       margin-top: 30px;
+      
+       cursor: pointer;
+    }
+    .btn:hover{
+        padding: 18px;
+        font-size: larger;
+    }
+      .p{
+        margin-top: 50px;
+        background-color: red;
+        width: 100vw;
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+<body>
+    <div class="parent">
+        <div class="firstchild">
+            <div class="childs">hello world</div>
+            <div class="childs">i am learning skill</div>
+            <div class="childs">where you from</div>
+        </div>
+    </div>
+    <div class="p"> <button class="btn">click to change my color</button></div>
+     <button class="btn">click to change my color</button>
+    <script src="bubbling.js"></script>
+    <script src="events.js"></script>
+</body>
+</html>
