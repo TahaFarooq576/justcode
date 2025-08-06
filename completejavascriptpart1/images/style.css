@@ -1,0 +1,314 @@
+
+.Parent{display: flex;
+   
+}
+#t1{
+    margin-left: 8%;
+    margin-top: 2%;
+}
+#t2{
+    margin-left: 2%;
+    margin-top: 2.2%;
+}
+#t3{
+    margin-left: 0.5%;
+    margin-top: 2.2%;
+}
+.vl {
+    border-left: 2px solid rgb(211, 203, 203);
+    height: 25px;
+    margin-left: 2%; 
+    margin-top: 2.2%;  
+}
+#t4{
+    margin-left: 20%;
+    margin-top: 2.2%;
+}
+#b1
+{
+    border-radius: 8px;
+    color: whitesmoke;
+    background-color: rgb(238, 39, 32);
+    border: 0px;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+   
+}
+#t5{
+    margin-left: 2%;
+    margin-top: 1.6%;
+}
+.parent2{
+    margin-left: 8%;
+    margin-top: 5%;
+} 
+#t6{
+    font-size: 50px;
+    font: bolder;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    
+}
+#t7{
+    font-size: 50px;
+    font: bolder;
+    margin-top:-2%;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    
+
+}
+#t8{
+    color: rgb(82, 76, 76);
+}
+#t9{
+    margin-top: -1%;
+    color: rgb(82, 77, 77);
+}
+#t10{
+    margin-top: 6%;
+    color: rgb(66, 61, 61);
+}
+.para{
+    display: flex;
+}
+.parent3{
+    margin-left: 23%;
+    margin-top: 5%;
+}
+.parent5{
+    margin-left: 8%;
+    margin-top: -1%;
+}
+.D1{
+  margin-left: 8%;
+  margin-top: 5%;
+  background-color: rgb(228, 215, 215);
+  height: 100%;
+  width: 18%;
+  border-top-left-radius:20px ;
+  border-bottom-left-radius:20px ;
+}
+#c1{
+    border: red solid;
+    border-radius: 50px;
+    height: 15px;
+    width: 15px;
+    background-color: red;
+}
+#c2{
+    border: orange solid;
+    border-radius: 50px;
+    height: 15px;
+    width: 15px;
+    background-color: orange;
+    margin-left: 3%;
+}
+#c3
+{
+    border: greenyellow;
+    border-radius: 50px;
+    height: 15px;
+    width: 15px;
+    background-color:greenyellow;
+    margin-left: 3%;
+}
+.ch1{
+    display: flex;
+    margin-left: 10px;
+}
+.ch2{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+#c4{
+    margin-left: 1%;
+}
+#c5{
+margin-left: 2%;
+}
+.ch3{
+    display:flex;
+    margin-left: 8px;
+    margin-top: 7px;
+}
+#c6{
+    margin-left: 5px;
+}
+.ch4{
+    display: flex;
+    margin-left: 8px;
+}
+.ch5{
+    margin-top: 15px;
+    margin-left: 4px;
+    color: rgb(51,42,42);
+}
+.ch6{
+    display: flex;
+}
+.ch7{
+    display :flex;
+    margin-left: 7px;
+}
+.ch8{
+    display :flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.ch10{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.ch11{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: flex;
+}
+.ch20{
+    background-color: rgb(202, 199, 199);
+    display: flex;
+}
+.BP{
+    display: flex;
+}
+.D2{
+    margin-top: 5%;
+    width: 40%;
+    min-width: 40%;
+    min-height: 100%;
+    
+    background-color: rgb(252, 249, 249);
+}
+.D3{
+    margin-top: 15%;
+    margin-left: 3%;
+    min-height: 100%;
+}
+.DC2{
+    display: flex;
+    
+}
+#pa1{
+    display: flex;
+}
+#pa2{
+    margin-left: 20%;
+    min-width: 30%;
+}
+#pa3{
+    margin-left: 10%;
+    min-width: 40%;
+}
+#tt2{
+    border: 6px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    margin-bottom: -50px;
+    margin-left: -70px;
+}
+.BP2{
+    max-width: 58%;
+    min-height: 100%;
+    background-color: rgb(248, 246, 246);
+    margin-top: 5%;
+    border-radius: 20px;
+    margin-left: 8%;
+
+}
+.CH1{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 1%;
+}
+
+#C1{
+    border: red solid;
+    border-radius: 50px;
+    height: 15px;
+    width: 15px;
+    background-color: red;
+}
+#C2{
+    border: orange solid;
+    border-radius: 50px;
+    height: 15px;
+    width: 15px;
+    background-color: orange;
+    margin-left: 1%;
+}
+
+#C3{
+    border: greenyellow;
+    border-radius: 50px;
+    height: 15px;
+    width: 15px;
+    background-color:greenyellow;
+    margin-left: 1%;
+
+}
+.d1{
+    display: flex;
+}
+#d2{
+    display:flex;
+    margin-left: 9%;
+}
+.d2{
+    display: flex;
+    margin-left: 9%;
+}
+#d3{
+    display: flex;
+    margin-top: -0.6%;
+    margin-left: 300px;
+}
+.N1{
+    display: flex;
+}
+#n2{
+    position: relative;
+    margin-left: 500px;
+    margin-top: -320px;
+}
+#n3{
+    position: relative;
+    margin-left: 70%;
+    margin-top: -400px;
+}
+.n11{
+    min-width: 58%;
+    min-height: 100%;
+    background-color: rgb(243, 243, 243);
+    margin-top: 15%;
+    border-radius: 20px;
+    margin-left: 8%;
+}
+#o1{
+    display: flex;
+    
+}
+#o2{
+    display: flex;
+}
+.parento{
+    display: flex;
+}
+#o12{
+    margin-left: 3%;
+    margin-top: 24%;
+}
+.parentn{
+    display: flex;
+    margin-left: 9%;
+    margin-top: 5%;
+    
+}
+.taha{
+    display: flex;
+}
