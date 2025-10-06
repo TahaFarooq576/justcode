@@ -1,0 +1,78 @@
+// Css Flexbox
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Flexbox</title>
+</head>
+<style>
+    .box{
+        height: 400px;
+        width: 200px;
+        background-color: aqua;
+
+    }
+    .flex{
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+
+    }
+    .box6{
+        background-color: blue;
+        position: absolute;
+    }
+    .box4:hover{
+        background-color: black;
+    }
+</style>
+<body>
+    <div class="flex">
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+      <div class="box box4">4</div>
+      <div class="box">5</div>
+      <div class="box box6">6</div>
+      <div class="box">7</div>
+      <div class="box">8</div>
+      <div class="box">9</div>
+      <div class="box">10</div>
+      <div class="box">11</div>
+      <div class="box">12</div>
+    </div>
+
+    <button class="change">change my color</button>
+
+
+
+    <script>
+        alert("I am learning web dev");
+        alert("Web dev is aa good journey")
+
+      let a=document.querySelector(".box4")
+      setInterval(() => {
+        a.innerHTML="<p> Hello world I am learning web dev course</p> "
+      }, 10000);
+       setInterval(() => {
+        a.style.backgroundColor="Yellow"
+      }, 8000);
+
+
+      function getrandomcolor() {
+    let r = Math.floor(Math.random() * 255);
+    let g = Math.floor(Math.random() * 255);
+    let b = Math.floor(Math.random() * 255);
+
+    return `rgb(${r},${g},${b})`
+}
+
+let cg=document.querySelector(".change")
+cg.style.backgroundColor="REd"
+    </script>
+</body>
+</html>
